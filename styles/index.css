@@ -1,0 +1,38 @@
+#content{
+    min-height: 100vh;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer{
+    margin-top: auto;
+    background-color: rgb(88, 88, 250);
+    box-shadow: 2px 2px 2px 1px rgba(115, 113, 113, 0.2);
+    border-radius: 7px;
+    text-align: center;
+}
+
+.logo-box>img{
+    width: 220px;
+    height: auto;
+    margin-top: 4px;
+}
+header{
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 48, 167);
+    box-shadow: 2px 2px 2px 1px rgba(115, 113, 113, 0.2);
+    border-radius: 7px;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.home-grid >div{
+    font-size: 25px;
+    border-bottom: 1px solid #000000;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
