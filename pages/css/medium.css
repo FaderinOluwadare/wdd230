@@ -1,0 +1,22 @@
+@media only screen and (min-width: 37.2em) {
+    header, footer {
+        border-radius: 10px;
+   
+    }
+   header {
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+   }
+   
+   h1 {
+    font-size: 2.5rem;
+       margin-left: 1rem;
+   }
+   
+   main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+   }
