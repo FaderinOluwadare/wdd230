@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans" , sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+.HeaderSocial{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: #FCFCFC;
+    margin-left: auto;
+   
+   
+}
+.HeaderList{
+    display: flex;
+    list-style: none;
+    gap: 26px;
+    color: #FCFCFC;
+    margin-right: auto;
+    font-family: "Open Sans" , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.firstHeader>a {
+  color: inherit !important;
+  text-decoration: none;
+}
+.active{
+  color: #B92424 !important;
+}
+.firstHeader{
+    display: flex;
+    background-color: #13141A;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+     padding-left: 200px;
+     padding-right: 235px;
+
+}
+.toggle{
+    display: none;
+}
+.secondHeader{
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 160px;
+    background-color: #F3F3F3;
+    position: relative;
+   
+}
+.mainmenu{
+    display: flex;
+    gap: 26px;
+    list-style: none;
+    font-family: "Open Sans" , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+@media only screen and (min-width: 1441px){
+   .large{
+         background-color: #13141A;
+    }
+    .firstHeader{
+        padding-left: 60px;
+        padding-right: 100px;
+        width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #13141A;
+    }
+    .secondHeader{
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    padding:0em;
+}
+    
+}
+@media only screen and (max-width: 1200px) and (min-width: 768px)  {
+    .firstHeader{
+     padding-left: 100px;
+     padding-right: 135px;
+    }
+    .secondHeader{
+     
+     padding-left: 80px;
+     padding-right: 90px;
+    }
+    .HeaderSocial{
+        gap: 20px;
+    }
+    .mainmenu{
+        gap: 14px;
+        font-size: 14px;
+    }
+    .HeaderList{
+        font-size: 14px;
+    }
+    
+}
+
+@media only screen and (max-width: 850px)  {
+    .mainmenu{
+        position: fixed;
+        inset: 0 0 0 35%;
+        flex-direction: column;
+        padding: min(20Vh, 10rem) 2rem;
+        background: hsl(211, 12%, 48% /0.1);
+        /* backdrop-filter: blur(5rem) */;
+        background-color: white;
+        margin-top: auto;
+        transform: translateX(100%);
+        transition: transform 500ms ease-out;
+        z-index:999;
+        
+       
+    }
+    .mainmenu[data-visible ="true"]{
+        transform: translateX(0%);
+
+    }
+    .secondHeader{
+    align-items: flex-start;
+    justify-content:flex-start;
+     padding-left: 40px;
+     padding-right: 60px;
+     height: 100%;
+     padding-top: 20px;
+     padding-bottom: 20px;
+      z-index:999;
+      
+
+}
+.toggle{
+    display: block;
+    background-color: transparent;
+    background-image: url("https://img.icons8.com/material-outlined/24/000000/menu--v1.png");
+    z-index:9999;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    width: 2rem;
+    aspect-ratio: 1;
+    border: 0;
+    background-repeat: no-repeat;
+}
+.toggle[aria-expanded="true"]{
+    background-image: url("https://img.icons8.com/material-sharp/24/000000/delete-sign.png");
+}
+.firstHeader{
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.HeaderList{
+   
+    gap: 20px;
+    font-size: 14px;
+   ;
+}
+.HeaderSocial{
+    gap: 30px;
+}
+
+}
+@media only screen and (max-width: 550px) {
+     
+.firstHeader{
+    padding-left: 10px;
+    padding-right: 25px;
+}
+.HeaderList{
+   
+    gap: 20px;
+    font-size: 14px;
+   ;
+}
+.HeaderSocial{
+    gap: 20px;
+}
+}
+@media only screen and (max-width: 455px) {
+    .HeaderSocial{
+    display: none;
+}
+}
