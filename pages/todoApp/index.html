@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>To do tracking application</title>
+	<style type="text/css">
+		div {
+			margin-right: auto;
+			margin-left: auto;
+			width: 600px;
+			display: grid;
+			grid-template-columns: auto auto 100px;
+			border-color: #2b1b17;
+			border-width: 10px;
+			border-radius: 15px;
+			background-color: pink;
+		}
+		body{
+			background-color: #aa5039be;
+			
+		}
+
+		.All:focus,.active:focus,.completed:focus {
+			background-color: #aa5039be;
+			transition-property: all;
+			transition-duration: .2s;
+			transition-timing-function: linear;
+		}
+		.All:hover,.active:hover,.completed:hover {
+			transform: scaleX(1.2);
+			background-color: #771f0c9d;
+			
+		}
+
+		.todo-Itm {
+
+			width: 600px;
+			border-style: double;
+			background-color: #aa5039be;
+		}
+		.head{
+			text-align: center;
+			font-size: 20px;
+			height: 80px;
+			background-color: #771f0c9d;
+			border-radius: 15px;
+			padding-left: 250px;
+			padding-top: 50px;
+			width: 400px;
+			animation: head;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+
+		}
+		/* @keyframes head{
+			0%{font-size: 20px;}
+			25%{font-size: 25px;}
+			50%{font-size: 30px;}
+			75%{font-size: 35px;}
+			100%{ font-size: 40px;}
+		} */
+		
+		
+		button{
+			width: 100px;
+			background-color: white;
+			border-radius: 15px;
+		}
+		button:hover{
+			transform: scaleX(1.2);
+		}
+		input{
+			margin-top: 20px;
+			background-color: #2b1b17;
+			border-radius: 5px;
+		}
+		.button{display: none;}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class ="head" >Book of Mormon Top 25 Chapters</div>
+	</header>
+
+	<section class="todo-itm" align="center">
+		<div align="center" style="color: #3c3625">
+			<h1 class="abd" align = "center">No item yet!!! Add new chapter's</h1>
+		</div>
+	</section>
+	
+	<form class="item" align="center">
+		<input type="text" name="item" required id="item">
+		<button type="submit" id="me">+</button>
+	</form>
+<section class="button" align="center">
+		<p></p>
+		<button class="All">All Chapter</button>
+		<button class="active">unread chapter</button>
+		<button class="completed">completed chapters</button>
+	</section>
+	<script type="module" src='./controller.js'>
+	</script>
+
+</body>
+
+</html>
