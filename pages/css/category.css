@@ -3,7 +3,7 @@
   display: flex;
   height: 260px;
   background-repeat: no-repeat; 
-  background-size: cover;
+  background-size: contain;
   box-shadow: 0px 2px 5px #00000026;
   justify-content: center;
   align-items: center;
@@ -16,8 +16,8 @@
   transition: transform 300ms ease-in-out ;
   cursor: pointer;
   background: linear-gradient(180deg, hsla(0, 0%, 20%, 0.4),hsla(0, 0%, 30%, 0.4));
-  background-size: cover;
   background-position: center center; 
+  
 
 
   
@@ -42,9 +42,53 @@
 }
 .space{
     display:flex;
-    width: 100%;
+    
     flex-basis: auto;
+    flex-wrap: wrap;
 }
 .space>a{
     width: 20%;
+}
+
+.temp{
+  display: flex;
+  justify-content: center;
+}
+ .item > h3{
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+ }
+
+ .item{
+  background-color: rgb(3, 3, 79);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+ }
+
+ ul{ 
+  list-style-type: none;
+}
+@media only screen and (max-width: 768px){
+  .space{
+    display:flex;
+    justify-content: flex-start;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+.space>a{
+    width: 30%;
+}
+
+}
+
+@media only screen and (max-width: 430px){
+  
+.space>a{
+    width: 100%;
+}
+
 }
