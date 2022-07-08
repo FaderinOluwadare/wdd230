@@ -1,0 +1,145 @@
+@media only screen and (min-width: 35rem) {
+  /*----------- HEADER --------------*/
+  header {
+    padding: 0.35rem 1rem;
+  }
+
+  section {
+    padding: 2rem 5rem;
+  }
+
+  #summary > h1 {
+    margin-left: 5rem;
+  }
+
+  #menuBtn,
+  #closeBtn {
+    display: none;
+  }
+
+  #menu {
+    position: static;
+    width: auto;
+    background-color: transparent;
+    color: #ddd;
+    z-index: unset;
+  }
+
+  #menu ul {
+    padding: 0;
+    display: flex;
+  }
+
+  #menu ul li {
+    margin-right: 1rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+
+  /*----------- FOOTER --------------*/
+  footer .top {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  footer .top > div {
+    min-width: 18rem;
+    max-width: 18rem;
+    margin-right: 2rem;
+  }
+
+  footer .top > div:first-child {
+    margin-bottom: 2rem;
+  }
+
+  footer .top > div:not(:first-child) {
+    margin-top: 0;
+  }
+
+  /*----------- MAIN --------------*/
+  #hero a {
+    padding: 1% 3rem;
+    border-radius: 50px;
+  }
+
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+
+  /* Current Weather */
+  #currentWeather {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.5rem;
+  }
+
+  #currentWeather :first-child {
+    grid-column: 1 / 2;
+  }
+
+  /* Forecast */
+  .forecast-box {
+    gap: 80px;
+  }
+
+  /* Companies */
+  .companies > div {
+    width: 150px;
+    height: 150px;
+    margin: 0 2rem;
+  }
+
+  /* Why Join Us */
+  #joinUs > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  /* Events */
+  #events > div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /*------------  FORM  -------------*/
+  form fieldset,
+  #benefits,
+  #contact-info {
+    max-width: 80%;
+  }
+
+  form label.top input,
+  form label.top select,
+  form label.top textarea {
+    max-width: 100%;
+  }
+
+  /* ------------ Directory Page ------------ */
+
+  #controls {
+    display: flex;
+  }
+
+  #businesses {
+    padding: 0.3rem 1rem;
+  }
+
+  #businesses p {
+    font-size: 0.9rem;
+  }
+
+  #businesses.grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+
+  /* ------------ CONTACT US Page ------------ */
+
+  iframe {
+    min-height: 320px;
+  }
+
+  #contact-info {
+    margin-top: 2rem;
+  }
+} /* end of media query */

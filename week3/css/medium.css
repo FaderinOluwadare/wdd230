@@ -1,0 +1,26 @@
+@media only screen and (min-width: 35rem) {
+  /*----------- BODY --------------*/
+
+  /*----------- HEADER --------------*/
+  header img {
+    width: auto;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h2 {
+    font-size: 1.5rem;
+  }
+
+  /*----------- NAVIGATION --------------*/
+
+  nav ul {
+    flex-direction: row;
+  }
+
+  /*----------- MAIN --------------*/
+
+  /*----------- FOOTER --------------*/
+} /* end of media query */

@@ -1,0 +1,208 @@
+.form div{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis:100% ;
+    
+}
+.form{
+   
+    display: block;
+    width: 540px;
+    padding: 40px;
+    border: 2px solid #f2f0ff;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: none;
+}
+.form label{
+    width:100%;
+    font-family: "Open sans" , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.form input{
+    width:100%;
+    font-family: "Open sans" , sans-serif;
+    font-style: normal;
+    border-radius: 8px;
+    border:2px solid transparent;
+    background-color: #f7f6ff;
+    font-size: 16px;
+}
+.form textarea{
+     width:100%;
+ font-family: "Roboto" , sans-serif;
+    font-style: normal;
+     border-radius: 8px;
+    border:2px solid transparent;
+    background-color: #f7f6ff;
+    font-size: 16px;
+    height: 136px ;
+}
+.form span{color: red;}
+.HomeText{
+    font-family: 'Montserrat', sans-serif;
+    z-index: 5;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.HomeText div{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+
+}
+
+.form p{
+font-family:'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 24px;
+color: black;
+}
+.button1{
+    font-family:'Open Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 36px;
+/* identical to box height, or 225% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+background-color: #B92424;
+border-radius: 8px;
+box-shadow: none;
+border-color: #B92424;
+margin-top: 7%;
+padding: 5px 8px;
+margin-left: auto;
+margin-right: auto;
+}
+.button1:hover{
+    cursor: pointer;
+}
+ .count p{
+        font-size: 12px;
+        text-align: right;
+        width: 100%;
+    }
+.mail{
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    display: flex; 
+    gap: 30px;
+    padding: 20px;
+    font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+     cursor: pointer;
+     background-color: rgb(241, 240, 240);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.mail span{
+   color: #B92424;
+}
+.heroText{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+@media only screen and (min-width: 1441px){
+   .heroText{
+        width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media only screen and (max-width: 1023px)  {
+    .heroText{
+        flex-direction: column;
+        gap: 55px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .form{
+        width:400px;
+         padding: 5px;
+    }
+    .form p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .count p{
+        font-size: 1px;
+        text-align: right;
+        width: 100%;
+    }
+   
+    .button1{
+        padding: 7.5px 10px;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+    .HomeText{
+        font-size: 25px;
+    }
+    .HomeText div{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 410px) {
+    .form{
+        width:300px;
+         padding: 5px;
+    }
+    .form p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .count p{
+        font-size: 10px;
+        text-align: right;
+        width: 100%;
+    }
+    .button1{
+        padding: 4.5px 7px;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+    .HomeText{
+        font-size: 20px;
+        padding: 5%;
+    }
+    .HomeText div{
+        font-size: 15px;
+    }
+    .mail{
+        height: 100px;
+        width: 95%;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+}

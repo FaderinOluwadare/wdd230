@@ -1,0 +1,39 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+  /* Current Weather */
+  #currentWeather {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  /* Forecast */
+  .forecast-box {
+    gap: 100px;
+  }
+
+  /* Companies */
+  .companies > div {
+    width: 200px;
+    height: 200px;
+    margin: 0 3rem;
+  }
+
+  #contact > div {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* ------------ Directory Page ------------ */
+
+  #directory {
+    padding-left: 4rem;
+    padding-right: 17rem;
+  }
+
+  #businesses .card > div div img {
+    max-width: 10rem;
+  }
+
+  #businesses.grid .card > div div img {
+    max-width: 7rem;
+  }
+} /* end of media query */

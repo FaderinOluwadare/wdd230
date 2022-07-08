@@ -1,0 +1,84 @@
+{
+  "businesses": [
+    {
+      "name": "Proaxive Labs",
+      "logo": "proaxive.png",
+      "address": "1 Idona, Ijebu-Imushin, Ogun state",
+      "phone": "(234) 810-815-6732",
+      "email": "hello@proaxivelabs.com",
+      "website": "https://proaxivelabs.com",
+      "level": "Gold",
+      "description": "Proaxive labs is the premiere IT company in Idona that serves businesses of all domains, and has served clients in several parts of the world"
+    },
+    {
+      "name": "MiraFoods",
+      "logo": "mirafoods.jpg",
+      "address": "2 Idona, Ijebu-Imushin, Ogun state",
+      "phone": "(234) 807-3456-0909",
+      "email": "info@mirafoods.com",
+      "website": "https://mirafoods.com",
+      "level": "Silver",
+      "description": "At Mirafoods, we think differently and act boldly. We build our name on providing generations of families with wholesome great – tasting food."
+    },
+    {
+      "name": "Ahmed Intergated Farms",
+      "logo": "ahmed.jpg",
+      "address": "12 Idokunusi Street, Ijebu-Imushin, Ogun state",
+      "phone": "(234) 855-1211-0989",
+      "email": "info@ahmedfarms.com",
+      "website": "https://aifarms.com",
+      "level": "Silver",
+      "description": "Ahmed Integrated Farms is into Poultry, Fish Farming (eggs, meat,day old chicks,fingerlings and grow-out) and animal Husbandry and sales of Farmlands land and facilities."
+    },
+    {
+      "name": "Auto Auction Mall",
+      "logo": "auction.png",
+      "address": "2 Idokunusi Street, Ijebu-Imushin, Ogun state",
+      "phone": "(234) 855-1121-3244",
+      "email": "info@auctionmall.com",
+      "website": "https://auctionmall.com",
+      "level": "Silver",
+      "description": "We have one all-consuming passion here at Auto Auction Mall: to help people save money and live better. We do this by helping regular people access exclusive U.S. dealer auctions."
+    },
+    {
+      "name": "RealHomes Limited",
+      "logo": "homes.jpg",
+      "address": "27 Idona, Ijebu-Imushin, Ogun state",
+      "phone": "(234) 807-2222-0301",
+      "email": "info@realhomes.com",
+      "website": "https://realhomes.com",
+      "level": "Gold",
+      "description": "RealHomes LTD is a Real Estate Organisation that provides high level expertise in Real estate Services. Our Areas of specialization includes property Development, Sales and Services & Consulting."
+    },
+    {
+      "name": "BluePower Overseas Ltd",
+      "logo": "bluepower.jpg",
+      "address": "27 Idona, Ijebu-Imushin, Ogun state",
+      "phone": "(234) 701-1211-5555",
+      "email": "info@bluepoweroverseas.com",
+      "website": "https://bluepoweroverseas.com",
+      "level": "Gold",
+      "description": "BluePower Overseas Limited is a leading technology company delivering bespoke sustainable Solar energy, power Systems solutions and turnkey projects across various sectors of the Nigerian economy ."
+    },
+    {
+      "name": "Daveni Tours Ltd",
+      "logo": "daveni.png",
+      "address": "33 Idona, Ijebu-Imushin, Ogun state",
+      "phone": "(234) 800-0050-5555",
+      "email": "info@davenipartners.com",
+      "website": "https://davenipartners.com",
+      "level": "Gold",
+      "description": "Daveni empowers high net worth individuals and families to become global citizens by investing in a second residence or citizenship and helps transform their dreams into reality through highly personalized products and services."
+    },
+    {
+      "name": "Budget Law Ltd",
+      "logo": "budget-law.svg",
+      "address": "7 Idona, Ijebu-Imushin, Ogun state",
+      "phone": "(234) 705-1000-1000",
+      "email": "hello@budgetlaw.com",
+      "website": "https://budgetlaw.com",
+      "level": "Gold",
+      "description": "BudgetLaw is established by a team of lawyers with a passion and dedication to cater to needs for quality legal services. Our lawyers have experience and technical know-how to deliver quality litigation."
+    }
+  ]
+}

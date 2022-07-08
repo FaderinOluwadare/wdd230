@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chamber of Commerce Website for the Town of Idona" />
+  <meta name="author" content="darefaderin" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <title>Join Us | Chamber of Commerce, Idona</title>
+</head>
+
+<body>
+  <!-- Banner -->
+  <aside id="banner">
+    <!-- banner text here -->
+    <p id="closeBanner">&times;</p>
+  </aside>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="logo" />
+      <div>
+        <h1>Idona City</h1>
+        <p>Chamber of Commerce</p>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="menu">
+      <div id="closeBtn">
+        &times;
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="idona.html">Idona</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li class="active"><a href="join.html">Join us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <div id="menuBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main>
+    <div id="summary">
+      <picture>
+        <source media="(max-width: 500px)" srcset="images/join-us.jpg" />
+        <source media="(max-width: 800px)" srcset="images/join-us.jpg" />
+        <source media="(max-width: 1024px)" srcset="images/join-us.jpg" />
+        <img src="images/join-us.jpg" alt="Franklin" />
+      </picture>
+      <h1>Join Us Today!</h1>
+    </div>
+    <section id="contact">
+      <h2>Please Fill the form below</h2>
+      <div>
+        <form action="thanks.html">
+          <fieldset>
+            <legend>Your Information</legend>
+            <label class="top">
+              First name
+              <input type="text" name="firstname" required />
+            </label>
+            <label class="top">
+              Last name
+              <input type="text" name="lastname" required />
+            </label>
+            <label class="top">
+              Title
+              <input type="text" name="title" />
+            </label>
+            <label class="top">
+              Email
+              <input type="email" name="email" placeholder="username@domain.com" required />
+            </label>
+            <label class="top">
+              Phone number
+              <input type="tel" name="phone" />
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Business Information</legend>
+            <label class="top">
+              Business name
+              <input type="text" name="businessname" required />
+            </label>
+            <label class="top">
+              Business address
+              <input type="text" name="address" />
+            </label>
+            <label class="top">
+              Business website
+              <input type="url" name="website" placeholder="https://" />
+            </label>
+            <label class="top">
+              Business description
+              <textarea name="description"></textarea>
+            </label>
+            <label class="top">
+              Membership level *
+              <select name="stormRegion">
+                <option selected disabled value="">Select Level ...</option>
+                <option value="non-profit">Non-profit ($100)</option>
+                <option value="bronze">Bronze ($200)</option>
+                <option value="silver">Silver ($400)</option>
+                <option value="gold">Gold ($1000)</option>
+              </select>
+            </label>
+          </fieldset>
+          <input class="submitBtn" type="submit" value="Add My Business" />
+        </form>
+        <div id="benefits">
+          <h4>Membership Level Benefits *</h4>
+          <div class="info">
+            <div>
+              <h5>Non-profit</h5>
+              <ul>
+                <li>Directory Listing</li>
+                <li>Business Trainings</li>
+                <li>Sponsorships</li>
+              </ul>
+              <h5>Bronze</h5>
+              <ul>
+                <li>Directory Listing</li>
+                <li>Business Trainings</li>
+              </ul>
+              <h5>Silver</h5>
+              <ul>
+                <li>Directory Listing</li>
+                <li>Business Trainings</li>
+                <li>Sponsorships</li>
+                <li>Social Media Posts</li>
+              </ul>
+              <h5>Gold</h5>
+              <ul>
+                <li>Directory Listing</li>
+                <li>Business Trainings</li>
+                <li>Sponsorships</li>
+                <li>Social Media Posts</li>
+                <li>Media Publication & Advertisements</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="top">
+      <div class="about-us">
+        <img src="images/logo.png" alt="logo" />
+        <p>We are proudly accountable to a better way of doing business. We actively pursue the wellbeing of staff,
+          communities and environment and help the businesses we work with do so as well.</p>
+      </div>
+      <div>
+        <a href="//google.com">
+          1 Idona Street <br> Opposite Eye Foundation Center <br> Ijebu-imushin <br> Ogun.
+        </a>
+      </div>
+      <div>
+        <a href="contact.html">Contact Us</a> <br>
+        <a href="tel:+2348108156732">(234) 810 815 6732</a> <br>
+        <a href="mailto:dare95@gmail.com">dare95@gmail.com</a>
+      </div>
+      <div>
+        <h4>Follow us</h4>
+        <ul>
+          <li><a href="//facebook.com/">FB</a></li>
+          <li><a href="//twitter.com/">TW</a></li>
+          <li><a href="//instagram.com/">INS</a></li>
+          <li><a href="//linkedin.com/in/">LKD</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2021 darefaderin | Images by Unsplash and by <a
+        href="https://commons.wikimedia.org/w/index.php?curid=97342152">Eukoha
+        - Own work, CC BY-SA 4.0</a>, Icons by <a href="https://www.flaticon.com/authors/chanut">Chanut</a>, <a
+        href="https://www.flaticon.com/authors/kiranshastry">Kiranshastry</a>, <a
+        href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a>
+      from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      <p>Weather Data provided by
+        <a href="https://https://openweathermap.org/">OpenWeatherMap.org</a>
+      </p>
+      <p>Last modified <span id="currentDate">202x</span>&nbsp;</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

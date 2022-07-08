@@ -1,0 +1,457 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  background-color: #eee;
+}
+
+/* Responsive images */
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  max-width: 100%;
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+/*----------- HEADER --------------*/
+
+header {
+  padding: 1.3rem 2%;
+  background-color: #caf0f8;
+  position: relative;
+}
+
+header img {
+  float: left;
+  margin-right: 10px;
+  width: 70px;
+}
+
+header h1 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 0.8rem;
+  margin: 0;
+  font-weight: 100;
+}
+
+#menuBtn {
+  width: 30px;
+  float: right;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+#menuBtn span {
+  display: block;
+  background-color: #000000;
+  height: 5px;
+  margin: 3px;
+}
+
+/*----------- NAV --------------*/
+#menu {
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  background-color: #00b4d8;
+}
+
+#menu ul {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li {
+  flex: 1 1 auto;
+}
+
+#menu ul li a {
+  display: block;
+  color: #000000;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+#menu ul li:hover {
+  background-color: #0083ca;
+}
+
+#menu ul li.active {
+  background-color: #0077b6;
+}
+
+#menu ul li.active a {
+  color: white;
+}
+
+#menu.show-menu {
+  opacity: 1;
+  max-height: 500px; /* Fix transition for height */
+  transition: all 0.3s 0.03s ease-in-out;
+}
+
+#menu.show-menu ul {
+  visibility: visible;
+}
+
+/*----------- MAIN --------------*/
+main {
+  padding: 1rem 2%;
+  background-color: #fff;
+}
+
+main h1 {
+  font-size: 1.5rem;
+}
+
+main h2 {
+  font-size: 1.2rem;
+}
+
+section:not(#contact) {
+  margin-top: 2rem;
+}
+
+/* Weather summary */
+
+#summary {
+  position: relative;
+}
+
+#summary > picture img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: 100% top;
+}
+
+#summary > table {
+  border: 1px solid rgba(204, 204, 204, 0.541);
+  border-radius: 4px;
+  background-color: #00b4d8c0;
+  padding: 2%;
+  color: white;
+  width: 25ex;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  font-size: 0.8rem;
+}
+
+#summary > table th {
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+#summary > table tr td:first-child {
+  text-align: right;
+}
+
+#summary > table tr td:last-child {
+  color: #ffdf60;
+}
+
+/* Five Day Forecast */
+#forecast {
+  display: none;
+}
+
+.forecast-item {
+  border: 1px solid #0083ca;
+  text-align: center;
+}
+
+.forecast-item:not(:last-child) {
+  border-right: 0;
+}
+
+.forecast-item h4 {
+  background-color: #00b4d8;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.forecast-item img {
+  width: 50px;
+}
+
+.forecast-item p {
+  font-size: 0.85rem;
+}
+
+/* Article Section */
+#article {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+#article img {
+  min-width: 100%;
+}
+
+#article a {
+  color: #0077b6;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+  background-color: #caf0f8;
+  padding-top: 1rem;
+}
+
+footer a[href] {
+  color: #00b4d8;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 5%;
+}
+
+#contact a {
+  color: #000000;
+}
+
+#contact p {
+  margin: 10px 0;
+}
+
+#contact div {
+  margin-bottom: 30px;
+}
+
+#contact > img {
+  display: none;
+}
+
+footer div img {
+  max-width: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+footer ul.social {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+#copyright {
+  justify-content: center;
+  background-color: #003755;
+  padding: 2%;
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Banner */
+#banner {
+  color: #000000;
+  background-color: #ffdf60;
+  padding: 15px;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Toggle display of elements */
+.hide {
+  display: none;
+}
+
+/*-------------- Gallery Page ---------------*/
+
+#container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+#container figure {
+  margin: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+#container figure:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#container figure img {
+  min-height: 200px;
+}
+
+#container figure figcaption {
+  padding: 5px;
+  font-size: 0.75em;
+}
+
+/* ---------------  FORM  ------------------ */
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #0076b2;
+  border-radius: 10px;
+  padding: 0.5rem 2% 2rem 2%;
+  box-shadow: 0 6px 20px 0 rgb(0 0 0 / 15%);
+}
+
+form legend {
+  color: #0076b2;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #0076b2;
+  font-size: 0.8rem;
+}
+
+form label.top input,
+form label.top select,
+form label.top textarea {
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 100%;
+  max-width: 25rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.top input:not([type="range"]),
+form label.top select {
+  -webkit-appearance: none;
+}
+
+form label.top textarea {
+  height: 8rem;
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #0076b2;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+  cursor: pointer;
+}
+
+form label.top input:required {
+  border-left: 6px solid red;
+}
+
+form label.top input:required:valid {
+  border-left: 6px solid green;
+}
+
+/* ------------------ HOME PAGE ------------------- */
+main > picture img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+#cards {
+  display: flex;
+  flex-direction: column;
+}
+
+#cards > div {
+  background-color: #c6f0f7;
+  padding: 0.5rem;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 10%);
+}
+
+#cards > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#cards > div:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+#cards > div > div {
+  flex: 1 0 50%;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+#cards > div > img {
+  flex: 1 0 50%;
+  min-width: 100px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 10%);
+}
+
+#cards > div > div h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+#cards > div > div p:first-of-type {
+  font-size: 0.75rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+#cards > div > div p {
+  font-size: 0.8rem;
+}
+
+#cards > div > div hr {
+  width: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.541);
+  margin-bottom: 1.8rem;
+}

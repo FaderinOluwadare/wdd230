@@ -1,0 +1,116 @@
+@media only screen and (min-width: 35rem) {
+  /*----------- BODY --------------*/
+
+  /*----------- HEADER --------------*/
+  header img {
+    width: auto;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h2 {
+    font-size: 1.5rem;
+  }
+
+  #menuBtn {
+    display: none;
+  }
+
+  /*----------- #NAVIGATION --------------*/
+
+  #menu {
+    max-height: unset;
+    opacity: 1;
+  }
+
+  #menu ul {
+    display: flex;
+    flex-direction: row;
+    visibility: visible;
+  }
+
+  #menu ul li {
+    flex-grow: 0;
+    padding: 0 1.2rem;
+  }
+
+  /*----------- MAIN --------------*/
+
+  /* Forecast section */
+  #forecast {
+    display: block;
+  }
+
+  .forecast-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  /* Article section */
+
+  #article {
+    display: block;
+  }
+
+  #article img {
+    float: right;
+    min-width: 0;
+    max-width: 30ex;
+  }
+
+  /* Weather Summary */
+
+  #summary > table {
+    width: 30ex;
+    padding: 2%;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+  }
+
+  /*----------- FOOTER --------------*/
+  #contact {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #contact > img {
+    display: block;
+    max-width: 50%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  #contact > div {
+    max-width: 60%;
+  }
+
+  #contact > div > div {
+    display: flex;
+  }
+
+  #contact > div > div > div {
+    margin-right: 30px;
+  }
+
+  /*------------  FORM  -------------*/
+  form fieldset {
+    max-width: 60%;
+  }
+
+  /*----------- FOOTER --------------*/
+  footer > p {
+    flex-direction: row;
+  }
+
+  /* ---------------- HOME PAGE ------------------ */
+  #cards > div > div h2 {
+    font-size: 1.8rem;
+  }
+
+  #cards > div > div p:first-of-type {
+    font-size: 0.8rem;
+  }
+} /* end of media query */

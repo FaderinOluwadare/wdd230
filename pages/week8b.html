@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/category.css">
+     <link rel="stylesheet" href="./css/sevenb.css">
+     <link rel="stylesheet" href="./css/eightb.css">
      <link rel="shortcut icon" href="https://faderinoluwadare.github.io/wdd230/images/favicon.ico">
   </head>
   <body>
@@ -101,88 +103,102 @@
         </section>
       </section>
     </div>
-     <section class="hero">
-     
-        
-        <picture class="wrapper">
-                    
-                        <source srcset="https://media.globalcitizen.org/thumbnails/85/b8/85b8310f-2f6b-4d99-8a26-1b45f6cd057d/africa_teen_geeks.jpg__1600x900_q85_crop_subsampling-2.jpg" media="(min-width: 
-                        570px) and (max-width: 949px)">
-                        <source srcset="https://media.globalcitizen.org/thumbnails/85/b8/85b8310f-2f6b-4d99-8a26-1b45f6cd057d/africa_teen_geeks.jpg__1600x900_q85_crop_subsampling-2.jpg" media="(min-width: 
-                        950px)">
-                        <img src="https://media.globalcitizen.org/thumbnails/85/b8/85b8310f-2f6b-4d99-8a26-1b45f6cd057d/africa_teen_geeks.jpg__1600x900_q85_crop_subsampling-2.jpg" alt="small">
-                        
-        </picture>
-        
-    
-      <div class="heroHomeText">
-        <h1>Bringing good news from Africa to the world</h1>
-        <button>
-          <a href="/contact">Partner with us</a>
-        </button>
-      </div>
-    </section>
-    <section style="margin-bottom:3%">
-      <section  class="space">
-        <a href="/categories/technews">
-          <div
-            
-           class= "categories"
-           style="background-image: url(../images/tech.webp);"
-          >
-            Tech & Business
+    <main>
+         <section class="heroText">
+      <section>
+        <div class="HomeText">
+          Join us <br />
+          <div>
+            <span>Partner with us or</span>
+            <span>share your achievements</span>
           </div>
-        </a>
-        <a href="/categories/product">
-          <div
-            class= "categories"
-            style="background-image: url(../images/product.webp);"
-          >
-            Product
-          </div>
-        </a>
-        <a href="/categories/achievements">
-          <div
-            class= "categories"
-            style="background-image: url(../images/acc.webp)"
-          >
-            Achievements
-          </div>
-        </a>
-        <a href="/categories/entertainment">
-          <div
-            class= "categories"
-            style="background-image: url(../images/entertain.webp);"
-          >
-            Entertainment
-          </div>
-        </a>
-        <a href="/categories/tourism">
-          <div
-            class= "categories"
-            style="background-image: url(../images/tu.webp);"
-          >
-            Tourism
+        </div>
+        <a href="/">
+          <div class="mail">
+            <div>
+              Email us at <br /> <span>DareFaderin@gmail.com</span>
+            </div>
           </div>
         </a>
       </section>
-      <section class="item" id="weather">
-        <h3>Weather</h3>
-        <div class="temp">
-            <img src="" alt="" id="weather-icon"/>
-            <p><span id="current-temp"></span> &deg;F</p>
-        </div>
-        <div class="cloudy">
-            <p><strong>Party Cloudy</strong></p>
-            <ul>
-                <li>Wind speed: <span id="speed" ></span> km/h</li>
-                <li>Wind Chill: <span id="windChill">
-                </span>&deg;</li>
-            </ul>
-        </div>
 
-    </section>
-    </section>
+      <section>
+        <form  class="form">
+          <section>
+            <p>Application form</p>
+          </section>
+          <div>
+            <label For="fname">
+              First name<span> *</span>
+            </label>
+            <input
+              id="fname"
+              name="fname"
+              type="text"
+              autoComplete="name"
+              required
+            />
+          </div>
+          <div>
+            <label For="lname">
+              Last name<span> *</span>
+            </label>
+            <input
+              id="lname"
+              name="lname"
+              type="text"
+              autoComplete="name"
+              required
+            />
+          </div>
+          <div>
+            <label For="email">
+              Email<span> *</span>
+            </label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autoComplete="email"
+              required
+            />
+          </div>
+          <div>
+            <label For="Business">
+              Business Position<span> *</span>
+            </label>
+            <input
+              id="subject"
+              name="Business"
+              type="text"
+              autoComplete="Business"
+              required
+            />
+          </div>
+          <div class="count">
+            <label For="description">
+              Message<span> *</span>
+            </label>
+            <textarea
+              id="message"
+              name="description"
+              type="textarea"
+              autoComplete="description"
+              required
+              minLength="50"
+              maxlength="500"
+            ></textarea>
+          </div>
+          <div>
+            <button type="submit" class="button1">
+              Send message
+            </button>
+          </div>
+        </form>
+      </section>
+    </section>            
+    </main>
+     
       <footer class="footer">
         <a
           href="/"
@@ -254,7 +270,7 @@
         </ul>
       </footer>
     </div>
-    <script src="../javascript/windchill.js"></script>
+    <script src="../javascript/member.js"></script>
   </body>
  
 </html>

@@ -1,0 +1,40 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+  header,
+  nav,
+  main,
+  footer #contact {
+    /* max-width: 64rem; */
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  #cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  #cards > div {
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  #cards > div,
+  #cards > div:nth-child(even) {
+    flex-direction: column;
+  }
+
+  #cards > div > div {
+    padding: 0.5rem 1rem;
+  }
+
+  #cards > div > div h2 {
+    margin-top: 1rem;
+  }
+
+  #cards > div > img {
+    min-height: 180px;
+    max-height: 180px;
+  }
+} /* end of media query */
