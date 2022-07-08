@@ -72,3 +72,18 @@ if ("IntersectionObserver" in window) {
 function adjustLevel(level) {
   document.getElementById("severityValue").innerHTML = level;
 }
+const display = document.querySelector("article");
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+gridbutton.addEventListener("click", () => {
+  // example using arrow function
+  display.classList.add("container");
+  display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+  display.classList.add("list");
+  display.classList.remove("container");
+}

@@ -297,28 +297,41 @@ footer ul.social {
 
 /*-------------- Gallery Page ---------------*/
 
-#container {
+ .container {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+} 
+.list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-#container figure {
+.list img {
+  display: none;
+}
+
+.list figure{
+  width: 100%;
+}
+
+.container figure {
   margin: 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   cursor: pointer;
 }
 
-#container figure:hover {
+.container figure:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-#container figure img {
+.container figure img {
   min-height: 200px;
 }
 
-#container figure figcaption {
+.container figure figcaption {
   padding: 5px;
   font-size: 0.75em;
 }
