@@ -16,16 +16,21 @@
       rel="stylesheet"
     />
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="../pages/css/sevenb.css">
+    
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="../pages/css/eightb.css" />
+    
     <title>Chamber of Commerce for Health</title>
   </head>
   <body>
     <!-- Banner -->
     <aside id="banner">
-      Chamber of Commerce for Health
+      Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+      park pavilion.
     </aside>
     <!-- Header -->
     <header class="clearfix">
@@ -35,7 +40,7 @@
         <span></span>
         <span></span>
       </div>
-       <h1>Nigeria</h1>
+      <h1>Nigeria</h1>
       <h2>Chamber of Commerce for Health</h2>
     </header>
 
@@ -44,122 +49,108 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="preston.html">weather</a></li>
-        <li ><a href="join.html">join-us</a></li>
-        <li ><a href="directory.html">discover</a></li>
-        <li class="active"><a href="stormcenter.html">contact-us usr</a></li>
+        <li class="active"><a href="join.html">join-us</a></li>
+        <li><a href="directory.html">discover</a></li>
+        <li><a href="stormcenter.html">contact-us usr</a></li>
         <li ><a href="gallery.html">Directory</a></li>
       </ul>
     </nav>
 
     <!-- Content -->
     <main>
-      <h1>contact-us</h1>
-      <h3>Reach out to us today!</h3>
-      <form action="thanks.html">
-        <fieldset>
-          <legend>Your Information</legend>
-          <label class="top">
-            Full name
+      <section class="heroText">
+      <section>
+        <div class="HomeText">
+          Join us <br />
+          <div>
+            <span>Partner with us or</span>
+            <span>share your achievements</span>
+          </div>
+        </div>
+        <a href="/">
+          <div class="mail">
+            <div>
+              Email us at <br /> <span>DareFaderin@gmail.com</span>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <section>
+        <form  class="form">
+          <section>
+            <p>Application form</p>
+          </section>
+          <div>
+            <label For="fname">
+              First name<span> *</span>
+            </label>
             <input
+              id="fname"
+              name="fname"
               type="text"
-              name="fullname"
+              autoComplete="name"
               required
-              pattern="[A-Za-z ]{5,}"
             />
-          </label>
-          <label class="top">
-            Email
+          </div>
+          <div>
+            <label For="lname">
+              Last name<span> *</span>
+            </label>
             <input
-              type="email"
+              id="lname"
+              name="lname"
+              type="text"
+              autoComplete="name"
+              required
+            />
+          </div>
+          <div>
+            <label For="email">
+              Email<span> *</span>
+            </label>
+            <input
+              id="email"
               name="email"
-              placeholder="username@domain.com"
+              type="email"
+              autoComplete="email"
+              required
             />
-          </label>
-          <label class="top">
-            Phone number
-            <input type="tel" name="phone" required />
-          </label>
-          <label class="top">
-            Zip code
-            <input type="number" name="zipCode" required />
-          </label>
-        </fieldset>
-        <fieldset>
-          <legend>Details</legend>
-          <label class="top">
-            date
-            <input type="date" name="stormDate" />
-          </label>
-          <label class="top">
-            type
-            <input list="stormList" name="stormType" />
-          </label>
-          <datalist id="stormList">
-            <option value="Flash Flood">
-            <option value="Hail">
-            <option value="Hurricane">
-            <option value="Thunderstorm">
-            <option value="Tornado">
-          </datalist>
-          <label class="top">
-            Level of Importance (1-10)
+          </div>
+          <div>
+            <label For="Business">
+              Business Position<span> *</span>
+            </label>
             <input
-              type="range"
-              name="impotance"
-              value="1"
-              min="1"
-              max="10"
-              step="1"
-              list="tickmarks"
-              oninput="adjustLevel(this.value)"
-              onchange="adjustLevel(this.value)"
+              id="subject"
+              name="Business"
+              type="text"
+              autoComplete="Business"
+              required
             />
-            <span>level: <span id="severityValue">1</span></span>
-          </label>
-          <datalist id="tickmarks">
-            <option value="1">
-            <option value="2">
-            <option value="3">
-            <option value="4">
-            <option value="5">
-            <option value="6">
-            <option value="7">
-            <option value="8">
-            <option value="9">
-            <option value="10">
-          </datalist>
-          <label class="top">
-            region
-            <select name="stormRegion">
-              <option selected disabled value="">Select Region ...</option>
-              <option value="preston">Preston</option>
-              <option value="soda-springs">Soda Springs</option>
-              <option value="fish-haven">Fish Haven</option>
-            </select>
-          </label>
-          <div>Are you in hurry?</div>
-          <label class="sbs">
-            <input type="radio" name="danger" value="yes" />
-            Yes
-          </label>
-          <label class="sbs">
-            <input type="radio" name="danger" value="no" />
-            No
-          </label>
-          <label class="sbs">
-            <input type="radio" name="danger" value="maybe" />
-            Maybe
-          </label>
-        </fieldset>
-        <fieldset>
-          <legend>Additional Information</legend>
-          <label class="top">
-            Comment
-            <textarea name="comment"></textarea>
-          </label>
-        </fieldset>
-        <input class="submitBtn" type="submit" value="Send My Report" />
-      </form>
+          </div>
+          <div class="count">
+            <label For="description">
+              Message<span> *</span>
+            </label>
+            <textarea
+              id="message"
+              name="description"
+              type="textarea"
+              autoComplete="description"
+              required
+              minLength="50"
+              maxlength="500"
+            ></textarea>
+          </div>
+          <div>
+            <button type="submit" class="button1">
+              Send message
+            </button>
+          </div>
+        </form>
+      </section>
+    </section> 
     </main>
 
     <!-- Footer -->
@@ -220,7 +211,7 @@
       </section>
       <section id="copyright">
         <p>
-          &copy;Chamber of Commerce for Health <br />Images by
+          &copy; Chamber of Commerce for Health <br />Images by
           <a href="https://picsum.photos">Lorem Picsum</a>, Icons made by
           <a href="https://www.flaticon.com/authors/iconixar" title="iconixar"
             >iconixar</a

@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-    <title>WeatherTour | The Town of Preston</title>
+    <title>Chamber of Commerce for Health</title>
   </head>
   <body>
     <!-- Banner -->
@@ -36,19 +36,19 @@
         <span></span>
         <span></span>
       </div>
-      <h1>WeatherTour</h1>
-      <h2>Weather forecast of the future</h2>
+       <h1>Nigeria</h1>
+      <h2>Chamber of Commerce for Health</h2>
     </header>
 
     <!-- Navigation -->
     <nav id="menu">
       <ul>
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="preston.html">Preston</a></li>
-        <li><a href="soda-springs.html">Soda Springs</a></li>
-        <li><a href="fish-haven.html">Fish Haven</a></li>
-        <li><a href="stormcenter.html">Storm Center</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="preston.html">weather</a></li>
+        <li><a href="join.html">join-us</a></li>
+        <li><a href="directory.html">discover</a></li>
+        <li><a href="stormcenter.html">contact-us usr</a></li>
+        <li><a href="gallery.html">Directory</a></li>
       </ul>
     </nav>
 
@@ -61,9 +61,37 @@
         <img src="images/hero-large.jpg" alt="Skycrapers" />
       </picture>
 
-      <section id="cards"></section>
+      <section id="cards">
+        <div>
+            <h3>Ribbon Cutting</h3>
+            <p><strong>💎 The Diamond Shack</strong></p>
+            <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m. </p>
+        </div>
+         <div class="item" id="weather">
+        <h3>Weather</h3>
+        <section >
+            <img src="" alt="" id="weather-icon"/>
+            <p><span id="current-temp"></span> &deg;F</p>
+        </section>
+            <p><strong>Party Cloudy</strong></p>
+                <p>Wind speed: <span id="speed" ></span> km/h</p>
+                <p>Wind Chill: <span id="windChill">
+                </span>&deg;</p>
+       
+
+         </div>
+         <div class="spots" id="spot-2">
+            <h3>Code Primera</h3>
+            <img src="https://zeus-max-code.github.io/wdd230/chamber/images/rsz_pencil-logo.png" alt="pencil">
+            <center>An after school coding instructional program.</center>
+            <div class="border">
+                <p>hello@thankfultransport.com</p>
+                <p>+233-774-878-555 website</p>
+            </div>
+        </div>
+      </section>
       <section id="article" class="clearfix">
-        <h2>Today in History - Saint Patrick dies</h2>
+        <h2>New release</h2>
         <img src="https://picsum.photos/200" alt="" />
         <p>
           On March 17, 461 A.D., Saint Patrick, Christian missionary, bishop and
@@ -146,7 +174,7 @@
       </section>
       <section id="copyright">
         <p>
-          &copy; The WeatherTour Site <br />Images by
+          &copy; Chamber of Commerce for Health <br />Images by
           <a href="https://picsum.photos">Lorem Picsum</a>, Icons made by
           <a href="https://www.flaticon.com/authors/iconixar" title="iconixar"
             >iconixar</a
@@ -162,5 +190,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/main.js"></script>
     <script src="js/towns.js"></script>
+    <script src="../javascript/windchill.js"></script>
   </body>
 </html>

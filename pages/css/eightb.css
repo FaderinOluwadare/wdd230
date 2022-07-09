@@ -85,10 +85,10 @@ align-items: center;
 text-align: center;
 
 color: #FFFFFF;
-background-color: #B92424;
+background-color: #00B4D8;
 border-radius: 8px;
 box-shadow: none;
-border-color: #B92424;
+border-color: #00B4D8;
 margin-top: 7%;
 padding: 5px 8px;
 margin-left: auto;
@@ -96,6 +96,7 @@ margin-right: auto;
 }
 .button1:hover{
     cursor: pointer;
+    background-color: #0077B6;
 }
  .count p{
         font-size: 12px;
@@ -118,7 +119,7 @@ margin-right: auto;
     margin-top: 10px;
 }
 .mail span{
-   color: #B92424;
+   color: #00B4D8;
 }
 .heroText{
     display: flex;
