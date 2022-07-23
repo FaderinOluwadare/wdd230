@@ -1,84 +1,40 @@
 {
   "businesses": [
     {
-      "name": "Proaxive Labs",
-      "logo": "proaxive.png",
-      "address": "1 Idona, Ijebu-Imushin, Ogun state",
+      "name": "Aba Nigeria Temple",
+      "logo": "https://assets.ldscdn.org/b3/1f/b31f8fc3892ce063cfbd0607cd53980290fcc0ae/aba_nigeria_temple_lds.jpeg",
+      "address": "72-80 Okpu-Umuobo Rd Aba Abia State, Nigeria",
       "phone": "(234) 810-815-6732",
       "email": "hello@proaxivelabs.com",
-      "website": "https://proaxivelabs.com",
-      "level": "Gold",
-      "description": "Proaxive labs is the premiere IT company in Idona that serves businesses of all domains, and has served clients in several parts of the world"
+      "website": "https://www.churchofjesuschrist.org",
+      "description": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. "
     },
     {
-      "name": "MiraFoods",
-      "logo": "mirafoods.jpg",
-      "address": "2 Idona, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 807-3456-0909",
+      "name": "Adelaide Australia Temple",
+      "logo": "https://assets.ldscdn.org/e9/bd/e9bd6df8906a98026e04cd747c4b5c9d78abb7e4/adelaide_australia_temple.jpeg",
+      "address": "53-59 Lower Portrush Rd Marden SA 5070 Australia",
+      "phone": "(61) 8-8363-8000",
       "email": "info@mirafoods.com",
-      "website": "https://mirafoods.com",
-      "level": "Silver",
-      "description": "At Mirafoods, we think differently and act boldly. We build our name on providing generations of families with wholesome great – tasting food."
+      "website": "https://www.churchofjesuschrist.org",
+      "description": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. "
     },
     {
-      "name": "Ahmed Intergated Farms",
-      "logo": "ahmed.jpg",
-      "address": "12 Idokunusi Street, Ijebu-Imushin, Ogun state",
+      "name": "Accra Ghana Temple",
+      "logo": "https://assets.ldscdn.org/87/5d/875db78e8219c9c6f476fd0fd88f444b986a0d0f/accra_ghana_temple_lds.jpeg",
+      "address": "Accra Ghana Temple Complex 57 Independence Ave, North Ridge P.M.B. CT 209, Cantonments, Accra, Ghana",
       "phone": "(234) 855-1211-0989",
       "email": "info@ahmedfarms.com",
-      "website": "https://aifarms.com",
-      "level": "Silver",
-      "description": "Ahmed Integrated Farms is into Poultry, Fish Farming (eggs, meat,day old chicks,fingerlings and grow-out) and animal Husbandry and sales of Farmlands land and facilities."
+      "website": "https://www.churchofjesuschrist.org",
+      "description": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. "
     },
     {
-      "name": "Auto Auction Mall",
-      "logo": "auction.png",
-      "address": "2 Idokunusi Street, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 855-1121-3244",
+      "name": "Albuquerque New Mexico Temple",
+      "logo": "https://assets.ldscdn.org/4e/c6/4ec65ba71856b3b99fb5547a193ee868b7f622b9/albuquerque_new_mexico_temple.jpeg",
+      "address": "10301 San Francisco Rd NE Albuquerque NM 87122-3437 United States",
+      "phone": "(1) 505-822-5110",
       "email": "info@auctionmall.com",
-      "website": "https://auctionmall.com",
-      "level": "Silver",
-      "description": "We have one all-consuming passion here at Auto Auction Mall: to help people save money and live better. We do this by helping regular people access exclusive U.S. dealer auctions."
-    },
-    {
-      "name": "RealHomes Limited",
-      "logo": "homes.jpg",
-      "address": "27 Idona, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 807-2222-0301",
-      "email": "info@realhomes.com",
-      "website": "https://realhomes.com",
-      "level": "Gold",
-      "description": "RealHomes LTD is a Real Estate Organisation that provides high level expertise in Real estate Services. Our Areas of specialization includes property Development, Sales and Services & Consulting."
-    },
-    {
-      "name": "BluePower Overseas Ltd",
-      "logo": "bluepower.jpg",
-      "address": "27 Idona, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 701-1211-5555",
-      "email": "info@bluepoweroverseas.com",
-      "website": "https://bluepoweroverseas.com",
-      "level": "Gold",
-      "description": "BluePower Overseas Limited is a leading technology company delivering bespoke sustainable Solar energy, power Systems solutions and turnkey projects across various sectors of the Nigerian economy ."
-    },
-    {
-      "name": "Daveni Tours Ltd",
-      "logo": "daveni.png",
-      "address": "33 Idona, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 800-0050-5555",
-      "email": "info@davenipartners.com",
-      "website": "https://davenipartners.com",
-      "level": "Gold",
-      "description": "Daveni empowers high net worth individuals and families to become global citizens by investing in a second residence or citizenship and helps transform their dreams into reality through highly personalized products and services."
-    },
-    {
-      "name": "Budget Law Ltd",
-      "logo": "budget-law.svg",
-      "address": "7 Idona, Ijebu-Imushin, Ogun state",
-      "phone": "(234) 705-1000-1000",
-      "email": "hello@budgetlaw.com",
-      "website": "https://budgetlaw.com",
-      "level": "Gold",
-      "description": "BudgetLaw is established by a team of lawyers with a passion and dedication to cater to needs for quality legal services. Our lawyers have experience and technical know-how to deliver quality litigation."
+      "website": "https://www.churchofjesuschrist.org",
+      "description": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. "
     }
   ]
 }

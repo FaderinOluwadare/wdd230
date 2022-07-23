@@ -31,7 +31,7 @@ fetch(directoryPath)
       website.textContent = "🔗:\u0020" + business.website;
       website.href = business.website;
 
-      logo.setAttribute("src", "images/" + business.logo);
+      logo.setAttribute("src",  business.logo);
       logo.setAttribute("alt", business.name);
 
       descWrapper.appendChild(description);
@@ -43,7 +43,7 @@ fetch(directoryPath)
       div.appendChild(phone);
       div.appendChild(email);
       div.appendChild(website);
-      div.appendChild(level);
+      //div.appendChild(level);
 
       card.appendChild(div);
       card.classList.add("card");
